@@ -8,7 +8,7 @@ import l5 from "../Assets/whatsapp.png";
 import S1 from "../Assets/S1.svg";
 import S2 from "../Assets/S2.svg";
 import S3 from "../Assets/S3.svg";
-
+import { ChevronDown } from "@carbon/icons-react";
 const Dash = () => {
   return (
     
@@ -17,7 +17,7 @@ const Dash = () => {
       <div className="uk-width-auto">
         <Sidebar />
       </div>
-      <div className="uk-width-expand">
+      <div className="layout uk-width-expand">
         <div className="wrap">
           <div className="uk-container ">
             <div className="dashhead">
@@ -33,8 +33,8 @@ const Dash = () => {
                 <div className="uk-width-1-2">
                   <div className="uk-text-right">
                     <div className=" rhead">
-                      <p className="uk-margin-remove-bottom">Your Balance</p>
-                      <p className="uk-margin-remove-top head3"> $128,529.60</p>
+                      <p className="head2 uk-margin-remove-bottom">Your Balance</p>
+                      <p className="uk-margin-remove-top head3"> $128,529.60 <span><ChevronDown size={20} /></span> </p>
                     </div>
                   </div>
                 </div>
@@ -84,9 +84,10 @@ const Dash = () => {
                   </div>
 
                   <img className="logow" src={l5}></img>
+                  <span className="uk-badge" style={{backgroundColor:'#EC2D37',marginLeft:'-10px' }}>23</span>
                   
                   <p className="uk-margin-remove-top " style={{color:'#29A869'}} >watsapp</p>
-                    
+
                 </div>
               </div>
             </div>
