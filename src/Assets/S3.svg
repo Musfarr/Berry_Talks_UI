@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Group_175855" data-name="Group 175855" transform="translate(-531 -845)">
+    <rect id="ic_Integrations_email" width="56" height="56" rx="28" transform="translate(531 845)" fill="#29a869"/>
+    <g id="chat-bot" transform="translate(542 856)">
+      <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" width="34" height="34" fill="none"/>
+      <path id="headset_mic_FILL0_wght400_GRAD0_opsz48" d="M19.125,34.443V32.268h10.8V30.31H24.564V19.577H29.93V17.112a10.72,10.72,0,0,0-3.154-7.741,10.273,10.273,0,0,0-7.65-3.245A10.508,10.508,0,0,0,11.4,9.371a10.6,10.6,0,0,0-3.227,7.741v2.466h5.366V30.31H8.175a2.087,2.087,0,0,1-1.523-.653A2.087,2.087,0,0,1,6,28.134V17.112A12.757,12.757,0,0,1,7.033,12a13.5,13.5,0,0,1,2.81-4.188,13.124,13.124,0,0,1,4.17-2.828A12.757,12.757,0,0,1,19.125,3.95a12.763,12.763,0,0,1,9.21,3.862A13.56,13.56,0,0,1,31.091,12a12.953,12.953,0,0,1,1.015,5.112V32.268a2.231,2.231,0,0,1-2.175,2.175Z" transform="translate(-2.053 -2.8)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

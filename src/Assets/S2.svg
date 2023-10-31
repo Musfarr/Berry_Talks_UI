@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Group_175856" data-name="Group 175856" transform="translate(-899 -845)">
+    <rect id="ic_Integrations_email" width="56" height="56" rx="28" transform="translate(899 845)" fill="#29a869"/>
+    <g id="chat-bot" transform="translate(909.748 855.748)">
+      <path id="Union_56" data-name="Union 56" d="M15,28.932l4.284-7.5h6.433a2.136,2.136,0,0,0,2.142-2.142v-15a2.136,2.136,0,0,0-2.142-2.142H4.284a2.14,2.14,0,0,0-1.518.626A2.162,2.162,0,0,0,2.14,4.284v15A2.136,2.136,0,0,0,4.284,21.43h9.642v2.143H4.284A4.284,4.284,0,0,1,0,19.288v-15A4.281,4.281,0,0,1,4.284,0H25.717A4.281,4.281,0,0,1,30,4.284v15a4.288,4.288,0,0,1-4.283,4.285H20.535L16.858,30ZM8.751,14.863l1.782-1.187a5.364,5.364,0,0,0,8.936,0l1.78,1.187a7.5,7.5,0,0,1-12.5,0Zm8.393-6.294a2.141,2.141,0,1,1,2.14,2.143A2.144,2.144,0,0,1,17.144,8.569Zm-8.57,0a2.142,2.142,0,1,1,2.144,2.143A2.141,2.141,0,0,1,8.574,8.569Z" transform="translate(2.252 2.252)" fill="#fff"/>
+      <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" width="34" height="34" transform="translate(0.252 0.252)" fill="none"/>
+    </g>
+  </g>
+</svg>

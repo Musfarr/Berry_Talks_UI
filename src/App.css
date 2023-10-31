@@ -1,38 +1,363 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.black {
+  height: 100vh;
+  background-color: black;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginheading{
+  font-family: 'SF pro';
+}
+
+.white {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wrap{
+  width: 100%;
+  position: relative;
+  padding: 64px 0;
+
+}
+.dashhead p {
+  padding: 0;
+}
+.lhead {
+  padding: 0;
+}
+.rhead{
+  padding: 0;
+}
+.login{
+  height: 40vh;
+  width: 60vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginheading{
+width: 81px;
+height: 40px;
+font-size: 34px;
+color: #29A869;
+font-family: 'SF Pro Medium';}
+
+.loginbtn{
+width: 74px;
+height: 32px;
+background-color: #29A869;
+border-radius: 20px;
+border: none;
+color: white;
+font-size: 15px;
 }
+
+.loginbtn:hover{
+  background-color: #26eb88;
+}
+.logo{
+display: flex;
+align-items: center;
+
+margin: 129px , 129px , 129px , 129 ;
+}
+.pfont{
+  color: black;
+  font-size: 13px;
+  width: 320px;
+  font-family:'SF Pro Regular' ;
+}
+
+.logininput{
+  background-color: white;
+  border-color: #e6e6e6;
+  border-radius: 4px;
+  border-style: solid;
+  width: 300px;
+  height: 44px;
+  font-size: 17px;
+  font-style: italic;
+  text-align:start;
+  color: #6A6A6A;
+  padding-left: 8px;
+  outline: none;
+font-weight: 500;
+}
+.logininput:hover{
+border-color: #29A869;
+}
+
+.parent{
+  background-color: #F5F5F5;
+  height: 100%;
+}
+/* .cards{
+  height: 236px;
+  margin-bottom: 0vh;
+  padding: 6vh;  
+  border-radius: 8px;
+  background-color: #FFFFFF;
+
+} */
+.card{
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 1px 2px #00000029; /* Example box shadow */
+
+}
+
+.forgot-button{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #29A869;
+  width: 300px;
+  font-family:'SF Pro Medium' ;
+}
+.fp{
+  
+  width: 300px;
+}
+.sidebar{
+  height: calc(100vh - 30px);
+  width: 60px;
+  background-color: black;
+  display: flex;
+  
+  
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  position: fixed;
+
+}
+.bar li {
+  margin-bottom: 9px;
+}
+
+/* ////////////////dash page ////////////// */
+
+.dash{
+  height: 100%;
+  width: 100%;
+ margin-left: 79px;
+ margin-right: 139px;
+ margin-top: 64px;
+margin-bottom: 50px;
+}
+.inside{
+  background-color: azure;
+}
+.line1{
+}
+
+.greytext{
+  color: #6A6A6A;
+  margin: 0;
+   font: normal normal medium 13px/18px SF Pro;;
+
+}
+
+.smalltext{
+  font-size: 13px;
+}
+
+
+.card1head{
+  font-size: 15px;
+  color: #202020;
+  width: 250px;
+  height: 28px;
+}
+
+.head1{
+  text-align: left;
+  /* width: 193px; */
+  height: 23px;
+  font-size: 19px;
+}
+.grid1{
+  justify-content: space-evenly;
+}
+.grid2{
+  margin-left: 0;
+  justify-content: space-evenly;
+}
+.welcometext{
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+
+
+
+.card2{
+  
+  /* width: 200px;
+  height: 220px;
+  padding: 20px; */
+  
+  width: 170px;
+  height: 200px;
+  padding: 20px;
+
+
+}
+.loader{
+  height: 6px !important;
+  vertical-align: baseline;
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: #f8f8f8;
+  margin: 0;
+  /* margin-bottom: 20px; */
+  height: 6px;
+}
+
+.loader::-webkit-progress-value{
+  background-color: #29A869 !important;
+}
+
+.logow{
+  margin-top: 20px;
+}
+
+/* .bar{
+  margin-top: 20px;
+  margin-left: 7px;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* /////HEADINGS////// */
+
+.card2head{
+  font-family: 'SF Pro Medium';
+  font-size: 19px;
+  color: #202020;
+  margin-bottom: 8px;
+  padding-top: 24px;
+}
+
+.card2body{
+  font-family:'SF Pro Regular' ;
+  font-size: 15px;
+  color: #454545  ;
+  margin-top: 0;
+  padding-top: 0;
+}
+.card1head{
+  font-family:'SF Pro Medium' ;
+  font-size: 27px;
+  color: #202020;
+}
+.head3{
+  color: #454545;
+  font-size: 24px;
+  font-family: 'SF Pro Regular';
+}
+
+.head2{
+  font-family:'SF Pro Medium' ;
+  font-size: 14px;
+  color: #6A6A6A;
+}
+.uk-card-body p  {
+
+}
+.head1{
+  font-family:'SF Pro Medium' ;
+  font-size: 15px;
+  color: #202020
+
+}
+.greenhead1{
+  margin: 0;
+  color: #29A869;
+  font-family:'SF Pro Medium' ;
+  font-size: 15px;
+}
+
+/* ///////////FONTS/////////////// */
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./Assets//fonts/SFProDisplay-BlackItalic.woff2') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro bold Italic';
+  src: url('./Assets//fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Bold';
+  src: url('./Assets//fonts/SFProDisplay-Bold.woff2') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./Assets//fonts/SFProDisplay-BlackItalic.woff') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-BlackItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Medium';
+  src: url('./Assets//fonts/SFProDisplay-Medium.woff') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-Medium.woff2') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Regular';
+  src: url('./Assets//fonts/SFProDisplay-Regular.woff') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('./Assets//fonts/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-SemiboldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Thin';
+  src: url('./Assets//fonts/SFProDisplay-ThinItalic.woff2') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Italic';
+  src: url('./Assets//fonts/SFProDisplay-UltralightItalic.woff2') format('woff2'),
+      url('./Assets//fonts/SFProDisplay-UltralightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
