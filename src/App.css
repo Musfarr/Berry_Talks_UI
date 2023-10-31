@@ -19,6 +19,7 @@
   width: 100%;
   position: relative;
   padding: 64px 0;
+  
 
 }
 .dashhead p {
@@ -117,22 +118,43 @@ border-color: #29A869;
   
   width: 300px;
 }
+
+
+/* ////////////////////Side bar////////////////// */
+
 .sidebar{
   height: calc(100vh - 30px);
   width: 60px;
   background-color: black;
   display: flex;
-  
-  
   flex-direction: column;
   align-items: center;
+  
   padding-top: 30px;
   position: fixed;
 
 }
-.bar li {
-  margin-bottom: 9px;
+/* .bar{
+  margin-left: 6px;
+
+} */
+
+.barbtm img{
+  width: 32px;
 }
+.bar li {
+  margin-bottom: 12px;
+  margin-left: 5px;
+}
+.sidebar a {
+  color: #aeb8b3;
+}
+.sidebar a:hover {
+  color: #ffffff;
+}
+
+
+
 
 /* ////////////////dash page ////////////// */
 
@@ -147,8 +169,7 @@ margin-bottom: 50px;
 .inside{
   background-color: azure;
 }
-.line1{
-}
+
 
 .greytext{
   color: #6A6A6A;
@@ -222,12 +243,7 @@ margin-bottom: 50px;
   margin-top: 20px;
 }
 
-/* .bar{
-  margin-top: 20px;
-  margin-left: 7px;
-  justify-content: center;
-  align-items: center;
-} */
+
 
 /* /////HEADINGS////// */
 
@@ -262,9 +278,7 @@ margin-bottom: 50px;
   font-size: 14px;
   color: #6A6A6A;
 }
-.uk-card-body p  {
 
-}
 .head1{
   font-family:'SF Pro Medium' ;
   font-size: 15px;

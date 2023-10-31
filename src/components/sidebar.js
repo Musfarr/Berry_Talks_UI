@@ -30,15 +30,17 @@ const Sidebar = () => {
           <li><a><TaskView size={22}/></a> </li>
           <li><a><WatsonHealthStudyNext size={22}/> </a></li>
           <li><a><Flash size={22}/> </a></li>
-          <li><a></a><Home size={22}/> </li>
+          <li><a><Home size={22}/></a> </li>
         </ul>
       </div>
       
       <div className='barbtm'>
-      {/* <img src={s1}></img> */}
+        
+      <img src={s1}></img>
+      
       <ul className='bar' style={{listStyleType:'none' , paddingLeft:'0px'}}>
-      <li><Notification size={25}/></li>
-      <li><Help size={25}/></li>
+      <li><a><Notification size={25}/></a></li>
+      <li><a><Help size={25}/></a></li>
       </ul>      
       </div>
       </div>

@@ -225,7 +225,7 @@ const Dash = () => {
               </div>
               <div className="uk-width-1-3">
                 <div className="uk-card card uk-card-body heightMatch">
-                  <img src={S1} />
+                  <img src={S2} />
                   <p className="card2head">Live agent chats</p>
                   <p className="card2body">Engage in real-time conversations with customers through live agent chats.</p>
                   <p className="greenhead1">View Chats</p>
@@ -233,7 +233,7 @@ const Dash = () => {
               </div>
               <div className="uk-width-1-3">
                 <div className="uk-card card uk-card-body heightMatch">
-                  <img src={S1} />
+                  <img src={S3} />
                   <p className="card2head">Create a Self-Service Chatbot</p>
                   <p className="card2body">Easily build a customer-centric chatbot for seamless self-service assistance and information retrieval.</p>
                   <p className="greenhead1">Build a Chatbot</p>
