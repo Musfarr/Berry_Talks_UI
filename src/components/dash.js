@@ -11,89 +11,7 @@ import S3 from "../Assets/S3.svg";
 
 const Dash = () => {
   return (
-    // <div className="uk-flex parent">
-    //   <Sidebar />
-    //   <div className="dash">
-    //     <div className="line1 uk-flex uk-flex-between  ">
-    //       <div>
-    //         <h2 className="welcometext" >Hi, Shayaan</h2>
-    //         <p className="smalltext greytext">Convex Interactive | Admin</p>
-    //       </div>
-
-    //       <div>
-    //         <h3 className=" smalltext greytext">your Balance</h3>
-
-    //         <h2 className="greytext">$128,529.60 </h2>
-    //       </div>
-    //     </div>
-    //     <div className="  ">
-    //       <div
-    //         className=" uk-padding uk-child-width-1-2@s uk-grid grid1 "
-    //         uk-grid=""
-    //       >
-    //         <div className="cards uk-card card  uk-card-large ">
-    //           <h3 className="uk-card-title  card1head uk-heading-divider">
-    //             {" "}
-    //             Package consumption{" "}
-    //           </h3>
-    //           <p>Active agents (27% Consumed)</p>
-    //           <p>Active agents (27% Consumed)</p>
-    //           <p>Active agents (27% Consumed)</p>
-    //         </div>
-
-    //         <div className="cards uk-card card card uk-card-large ">
-    //           <h3 className="uk-card-title  card1head uk-heading-divider">
-    //             {" "}
-    //             Active{" "}
-    //           </h3>
-    //           <div>
-    //             <img src={l4} />
-    //           </div>
-    //         </div>
-    //       </div>
-
-    //       <div>
-    //         <h1 className="head1">Channels Coming Soon</h1>
-    //       </div>
-
-    //       <div className="uk-grid grid2 ">
-    //         <div className=" card2 card ">
-    //           <div>
-    //             <img src={l2} />
-    //           </div>
-    //           <h3 className="uk-card-title ">Email </h3>
-    //           <p >Begin the configuration of your domains now.</p>
-    //         </div>
-
-    //         <div className="card2 card ">
-    //           <div>
-    //             <img src={l3} />
-    //           </div>
-    //           <h3 className="uk-card-title ">Livechat </h3>
-    //           <p>Begin the configuration of your domains now.</p>
-    //         </div>
-    //         <div className="card2 card ">
-    //           <div>
-    //             <img src={l1} />
-    //           </div>
-    //           <h3 className="uk-card-title ">Twitter </h3>
-    //           <p>Begin the configuration of your domains now.</p>
-    //         </div>
-    //         <div className=" card2 card ">
-    //           <div>
-    //             <img src={l4} />
-    //           </div>
-    //           <h3 className="uk-card-title ">watsapp </h3>
-    //           <p>Begin the configuration of your domains now.</p>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
-    // <div className="uk-card card uk-card-small uk-card-body">
-
-    // </div>
+    
 
     <div style={{ backgroundColor: "#F5F5F5" }} className="uk-grid" uk-grid="">
       <div className="uk-width-auto">
@@ -168,8 +86,7 @@ const Dash = () => {
                   <img className="logow" src={l5}></img>
                   
                   <p className="uk-margin-remove-top " style={{color:'#29A869'}} >watsapp</p>
-                  <p>text</p>
-                  
+                    
                 </div>
               </div>
             </div>
