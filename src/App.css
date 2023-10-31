@@ -51,6 +51,7 @@ border-radius: 20px;
 border: none;
 color: white;
 font-size: 15px;
+margin-left: -50px;
 }
 
 .loginbtn:hover{
@@ -83,6 +84,10 @@ margin: 129px , 129px , 129px , 129 ;
   padding-left: 8px;
   outline: none;
 font-weight: 500;
+}
+.logininput:focus{
+  border-color: green;
+  outline: none;
 }
 .logininput:hover{
 border-color: #29A869;
