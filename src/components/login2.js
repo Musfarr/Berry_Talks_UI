@@ -44,7 +44,9 @@ const Login2 = () => {
           </div>
           <div className="uk-flex   ">
             <div>
+              <Link to="/form">
               <h3 className="forgot-button">Forgot Password ?</h3>
+              </Link>           
             </div>
             <div >
               <Link to="/dash">
