@@ -6,15 +6,18 @@ const Form = () => {
     <div className="bg">
       <div className="formhead  ">
         <div className="uk-container uk-container-large">
-          <div className="uk-flex uk-flex-between uk-flex-middle" style={{marginTop:'1.5vh'}}>
-          <div className="  ">
-            <img src={l1}></img>
-            <span className="logotext">Berry Talks </span>
-          </div>
+          <div
+            className="uk-flex uk-flex-between uk-flex-middle"
+            style={{ marginTop: "1.5vh" }}
+          >
+            <div className="  ">
+              <img src={l1}></img>
+              <span className="logotext">Berry Talks </span>
+            </div>
 
-          <div className=" ">
-            <p className="greenhead1 ">Need help</p>
-          </div>
+            <div className=" ">
+              <p className="greenhead1 ">Need help</p>
+            </div>
           </div>
         </div>
       </div>
@@ -31,14 +34,14 @@ const Form = () => {
             <div className="uk-grid" uk-grid="">
               <div className="uk-width-1-2">
                 {" "}
-                <p className="mbr">First Name</p>
+                <p className="mbr card2body">First Name</p>
                 <input
                   placeholder="First Name"
                   className="uk-input-primary forminput"
                 />{" "}
               </div>
               <div className="uk-width-1-2">
-                <p className="mbr">Last Name</p>
+                <p className="mbr card2body">Last Name</p>
 
                 <input
                   className="uk-input-primary forminput"
@@ -50,14 +53,14 @@ const Form = () => {
             <div className="uk-grid" uk-grid="">
               <div className="uk-width-1-2">
                 {" "}
-                <p className="mbr">Email</p>
+                <p className="mbr card2body">Email</p>
                 <input
                   placeholder="Email"
                   className="uk-input-primary forminput"
                 />{" "}
               </div>
               <div className="uk-width-1-2">
-                <p className="mbr">mobile</p>
+                <p className="mbr card2body">Mobile</p>
                 <input
                   placeholder="Mobile"
                   className="uk-input-primary forminput"
@@ -67,8 +70,11 @@ const Form = () => {
 
             <div className="uk-grid " uk-grid="">
               <div className="uk-width-1-1">
-                <p className="mbr">Please briefly describe your requirements</p>
-                <input
+                <p className="mbr card2body">
+                  Please briefly describe your requirements
+                </p>
+                <textarea
+                  rows="5"
                   placeholder="Brief description..."
                   className="uk-width-1-1 forminput textbox "
                 />
@@ -81,7 +87,7 @@ const Form = () => {
 
             <div className="frmbtn uk-flex  uk-align-right uk-margin-large">
               <button className=" wbtn">Cancel </button>
-              <button  className="  loginbtn">Request a demo </button>
+              <button className="  loginbtn">Request a demo </button>
             </div>
           </div>
         </div>
