@@ -31,6 +31,9 @@ const Form = () => {
             to have for the live agent chats feature.
           </p>
           <div className="uk-card uk-card-body card">
+            <h1 className="card2head uk-padding-remove-top">
+              User information{" "}
+            </h1>
             <div className="uk-grid" uk-grid="">
               <div className="uk-width-1-2">
                 {" "}
@@ -45,7 +48,7 @@ const Form = () => {
 
                 <input
                   className="uk-input-primary forminput"
-                  placeholder="First Name"
+                  placeholder="Last Name"
                 />
               </div>
             </div>
@@ -53,14 +56,14 @@ const Form = () => {
             <div className="uk-grid" uk-grid="">
               <div className="uk-width-1-2">
                 {" "}
-                <p className="mbr card2body">Email</p>
+                <p className="mbr card2body">Email </p>
                 <input
-                  placeholder="Email"
+                  placeholder="Email address  "
                   className="uk-input-primary forminput"
                 />{" "}
               </div>
               <div className="uk-width-1-2">
-                <p className="mbr card2body">Mobile</p>
+                <p className="mbr card2body">Mobile number</p>
                 <input
                   placeholder="Mobile"
                   className="uk-input-primary forminput"
@@ -78,7 +81,7 @@ const Form = () => {
                   placeholder="Brief description..."
                   className="uk-width-1-1 forminput textbox "
                 />
-                <p className="mbr">
+                <p className="card2body mbr">
                   Once you have submitted the form, our team will review your
                   application and get back to you with further instructions.
                 </p>

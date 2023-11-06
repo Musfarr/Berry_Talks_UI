@@ -7,7 +7,7 @@ const Login2 = () => {
 <>
     <div >
         <div className='uk-grid' uk-grid = "">
-            <div className='uk-width-1-2 black'>
+            <div className='uk-width-1-2 black '>
                 <img src={logo}></img>
             </div>
 
